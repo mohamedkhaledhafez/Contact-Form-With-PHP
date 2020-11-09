@@ -1,0 +1,77 @@
+/* Start Form Code */
+
+.contact {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.contact .form-group {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.alert {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: -2px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #7a7878;
+    padding: 30px;
+}
+
+
+.contact input {
+    padding-left: 35px;
+
+}
+
+
+.contact input,
+.contact textarea {
+    margin-bottom: 10px;
+}
+
+.contact textarea {
+    height: 100px !important;
+}
+
+.contact input:not([type='submit']) + i {
+    height: 0;
+    float: left;
+    position: relative;
+    top: -35px;
+    left: 10px;
+    color: #999;
+}
+
+
+.contact .form-group .asterisx {
+    float: right;
+    color: #F00;
+    height: 0;
+    position: absolute;
+    top: 5px;
+    font-size: 22px;
+    right: 10px;
+
+}
+
+.contact .send-icon {
+    display: block;
+    color: #FFF;
+    position: relative;
+    top: -35px;
+    left: 6px;
+   
+
+}
+
+.contact .custom-alert {
+    padding: 5px 10px;
+    display: none;
+}
+/* End Form Code */
